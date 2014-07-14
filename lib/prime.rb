@@ -17,6 +17,7 @@ def n_primes(n)
   results
 end
 
+# I chose to use the n_primes function for the script instead of the primes_through, but it would be trivial to alter.
 def primes_through(n)
   results = []
   
