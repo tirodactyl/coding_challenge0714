@@ -1,9 +1,11 @@
 def is_prime?(n)
   # this line prevents us from having to check ANY even numbers once we check for division by two
-  return false if n % 2 == 0
+  if n != 2
+    return false if n % 2 == 0
+  end
   
   i = 3
-  until i == n
+  until i >= n
     return false if n % i == 0
     i += 2
   end

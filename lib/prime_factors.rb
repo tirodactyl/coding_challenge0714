@@ -10,7 +10,9 @@ def prime_factors(n)
   memo = {}
   
   rows.each_index do |r_idx|
-    row.each_index do |c_idx|
+    next if r_idx == 0
+    
+    rows[r_idx].each_index do |c_idx|
       # broken out to increase readability, could easily not assign this variable and do this in one line below
       mult = (c_idx == 0 ? 1 : rows[0][c_idx])
       
