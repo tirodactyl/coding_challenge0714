@@ -1,7 +1,13 @@
 def is_prime?(n)
-  for i in 2..(n/2)
-    return false if n % i == 0 
+  # this line prevents us from having to check ANY even numbers once we check for division by two
+  return false if n % 2 == 0
+  
+  i = 3
+  until i == n
+    return false if n % i == 0
+    i += 2
   end
+  
   true
 end
 
