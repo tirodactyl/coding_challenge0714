@@ -2,6 +2,8 @@
 
 They asked me to post this on Github so I figured I'd make a friendly readme. Maybe somebody else will find this interesting as an example of what you might want to give potential interviewees.
 
+I found this problem to be good for this purpose as it is not overly complex, but requires your candidate to have a good grasp of generic programming principles, OO design principles, TDD, and git is an added bonus. Thanks - I enjoyed this challenge!
+
 ##Objective
 
 Write a program that prints out a multiplication table of the first 10 prime numbers.
